@@ -1,8 +1,12 @@
 import Sidebar from '../Sidebar';
-import './index.scss';
+import './Layout.scss';
 
 const Layout = () => {
-    return <><Sidebar/></>
+    return (
+     <>
+       <Sidebar/>
+     </>
+    )
 }
 
 export default Layout;
