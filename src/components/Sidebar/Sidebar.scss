@@ -43,7 +43,7 @@ nav {
         }
 
         &:hover {
-            color: yellow;
+            color: rgb(193, 250, 4);
 
             svg {
                 opacity: .5;
@@ -85,10 +85,33 @@ nav {
             }
         }
 
-        a.active {
-            svg {
-                color: yellow;
+        // a.active {
+        //     svg {
+        //         color: yellow;
+        //     }
+        // }
+    } 
+    ul {
+        position: absolute;
+        bottom: 25px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li {
+            a {
+                padding: 9px 0; 
+                display: block;
+                font-size: 23px;
+                line-height: 16px;
+
+                &:hover svg {
+                    color: rgb(193, 250, 4);
+                }
             }
         }
-    } 
+    }
 }

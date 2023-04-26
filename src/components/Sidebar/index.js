@@ -3,6 +3,7 @@ import './Sidebar.scss';
 import logoMW from '../../assets/images/MW-logo_thumbnail.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faDiscord, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 const Sidebar = () => (
@@ -21,6 +22,33 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faEnvelope} color="$4d4d4e"/>
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a 
+                target="_blank" 
+                rel='noreferrer' 
+                href='https://www.linkedin.com/in/matthew-ev-walker/'
+                >
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                </a>
+
+                <a 
+                target="_blank" 
+                rel='noreferrer' 
+                href='https://github.com/MatthewEvWalker/'
+                >
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                </a>
+
+                <a 
+                target="_blank" 
+                rel='noreferrer' 
+                href='https://github.com/MatthewEvWalker/'
+                >
+                    <FontAwesomeIcon icon={faDiscord} color="#4d4d4e" />
+                </a>
+            </li>
+        </ul>
     </div>
 )
 
