@@ -4,9 +4,41 @@
         position: absolute;
         left: 10%;
         top: 50%;
-        
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
     }
+
     h1 {
+        color: white;
+        font-size: 53px;
+        margin: 0;
+        font-family:'Segoe UI', 'Tahoma', 'Geneva', "Verdana", 'sans-seri';
+        font-weight: 600;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '<h1>';
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
         img {
             width: 32px
         }

@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="container home-page">
             <div className="text-area">
-                <h1> Hi, I'm Matthew 
+                <h1> Hi, I'm Matthew, a
                 FullStack Developer
                 </h1>
                 <h2>
