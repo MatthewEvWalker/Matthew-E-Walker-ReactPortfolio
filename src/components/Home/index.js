@@ -27,15 +27,17 @@ const Home = () => {
 
                 <Letters letterClass={letterClass} 
                 letterArray={webDevList2}
-                index={26} />
+                index={27} />
 
                 <Letters letterClass={letterClass}
                 letterArray={pythonList}
                 index={47} />
                 </h1>
+
                 <h2>
                 React Dev | Intermediate Python Programmer | Advanced Javascript Skills
                 </h2>
+
                 <Link to="/contact" className="contact-btn">CONTACT</Link>
             </div>
         </div>

@@ -1,13 +1,13 @@
 .text-animate {
     display: inline-block;
     opacity: 0;
-    animation: fadeIn 1s 1s;
+    animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
     min-width: 10px;
 }
 
-@for $i from 1 through 10 {
-    .text-animate:nth-child(#{$i}) {
-        animation-delay: #{$i * 0.1}s;
+@for $i from 1 through 63 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i / 11}s;
     }
 }
