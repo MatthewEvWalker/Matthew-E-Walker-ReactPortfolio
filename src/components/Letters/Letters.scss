@@ -6,6 +6,19 @@
     min-width: 10px;
 }
 
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+
+    &:hover {
+        animation: rubberBand 0.5s;
+        color: #00B4D8;
+        cursor: pointer;
+    }
+}
+
 @for $i from 1 through 63 {
     .text-animate._#{$i} {
         animation-delay: #{$i / 11}s;

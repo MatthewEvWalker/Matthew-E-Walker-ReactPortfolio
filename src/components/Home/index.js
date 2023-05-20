@@ -6,22 +6,36 @@ import React, { useState, useEffect } from 'react';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate') 
+    const heyList = ["H", "e", "y", "", " I", "'", "m"]
     const nameList = [" ", "M", "a", "t", "t", "h", "e", "w", ",", " ", "a"]
     const webDevList1 = [" ", "F", "u", "l", "l", " ", "S", "t", "a", "c", "k", " "]
     const webDevList2 = ["D", "e", "v", "e", "l", "o", "p", "e", "r"]
     const pythonList = [" ", "a", "n", "d", " ", "D", "a", "t", "a", " ", "A", "n", "a", "l", "y", "s", "t"]
 
+
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLetterClass("text-animate-hover")
+        }, 4000)        
+    }, [])
+
+
     return (
         <div className="container home-page">
             <div className="text-area">
-                <h1> Hey I'm  
+                <h1>  
+                <Letters letterClass={letterClass}
+                letterArray={heyList} 
+                index={15} />
+
                 <Letters letterClass={letterClass}
                 letterArray={nameList}
-                index={15} />
+                index={18} />
 
                 <Letters letterClass={letterClass} 
                 letterArray={webDevList1}
-                index={26} />
+                index={27} />
                 
                 <br/>
 
@@ -31,7 +45,7 @@ const Home = () => {
 
                 <Letters letterClass={letterClass}
                 letterArray={pythonList}
-                index={47} />
+                index={27} />
                 </h1>
 
                 <h2>
@@ -42,7 +56,6 @@ const Home = () => {
             </div>
         </div>
     )
-
 }
 
 export default Home
