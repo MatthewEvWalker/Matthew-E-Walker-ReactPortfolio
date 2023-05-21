@@ -31,28 +31,28 @@
         box-shadow: 0 0 20px 0px #00B4D8;
     }
 
-    .side1 {
+    .sidePy {
         transform: translateZ(100px);
     }
 
-    .side2 {
+    .sideHTML {
         transform: rotateY(90deg) translateZ(100px);
     }
     
-    .side3 {
-        transform: rotateY(180deg) translateZ(100px);
+    .sideCSS {
+        transform: rotateY(180deg) rotate(90deg) translateZ(100px);
     }
 
-    .side4 {
+    .sideReact {
         transform: rotateY(270deg) translateZ(100px);
     }
 
-    .side5 {
-        transform: rotateX(90deg) translateZ(100px);
+    .sideJS {
+        transform: rotateX(90deg) rotate(-90deg) translateZ(100px);
     }
 
-    .side6 {
-        transform: rotateX(-90deg) translateZ(100px);
+    .sideNode {
+        transform: rotateX(-90deg) rotate(-90deg)translateZ(100px);
     }
 }
 
