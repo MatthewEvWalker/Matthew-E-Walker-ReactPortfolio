@@ -1,11 +1,9 @@
-import "./About.scss"
-import Letters from "../Letters"
-import { useState, useEffect } from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCss3, faHtml5, faJsSquare, faNodeJs, faPython, faReact } from "@fortawesome/free-brands-svg-icons"
+import './Contact.scss'
+import Letters from '../Letters'
+import { useState, useEffect, Input } from 'react'
 
-const About = () => {
-
+const Contact = () => {
+    
     const [letterClass, setLetterClass] = useState('text-animate') 
 
     useEffect(() => {
@@ -15,14 +13,16 @@ const About = () => {
     }, [])
 
     return (
-        
-        <div className="container about-page">
+        <>
+        <div className="container contact-page">
             <div className="text-area">
                 <h1>
-                    <Letters letterClass={letterClass} letterArray={["A", "b", "o", "u", "t", " ", "M", "e"]} 
+                    <Letters letterClass={letterClass} letterArray={["C", "o", "n", "t", "a", "c", "t", " ", "M", "e"]} 
                     index={20}
+
                     />
                 </h1>
+
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet scelerisque risus quis auctor. Ut ac nisi quis ex rhoncus eleifend nec non tortor. Fusce porttitor a dui non maximus. Curabitur vehicula varius massa non blandit. Proin feugiat turpis sem, et consequat augue pretium quis. Aenean vitae bibendum lectus. Nullam vestibulum arcu vestibulum nisi volutpat, tristique ornare nibh tempus. In sed luctus quam, non dapibus est.
 
@@ -39,46 +39,42 @@ const About = () => {
   
                 </p>
 
-            </div>
+                <div className="form">
+                    <form>
+                        <ul>
+                            <li className='listHalf'>
+                                <input type="text" name="name" placeholder="Name" required/>
+                            </li>
+                            <li className='listHalf'>
+                                <input type="text" name="email" placeholder="Email" required/>
+                            </li>
 
-            <div className="stage-cube-cont">
-                <div className="cubeSpin">
-                    <div className="side1"> 
-                        <FontAwesomeIcon icon={faPython} 
-                        color="#6495ED" />
-                    </div>
+                            <li>
+                                <input type="text" placeholder="Subject" required/>
+                            </li>
 
-                    <div className="side2"> 
-                        <FontAwesomeIcon icon={faHtml5} 
-                        color="#C46210" />
-                    </div>
+                            <li>
+                                <textarea type="text" placeholder="Message" 
+                                name="message"
+                                required/>
+                            </li>
 
-                    <div className="side3"> 
-                        <FontAwesomeIcon icon={faCss3} 
-                        color="#1F75FE" />
-                    </div>
+                            <li>
+                                <input type="submit" className='submit-btn' value="SUBMIT" required/>
+                            </li>
 
-                    <div className="side4"> 
-                        <FontAwesomeIcon icon={faReact} 
-                        color="#5ED4F4" />
-                    </div>
 
-                    <div className="side5"> 
-                        <FontAwesomeIcon icon={faJsSquare} 
-                        color="yellow" />
-                    </div>
+                        </ul>
 
-                    <div className="side6"> 
-                        <FontAwesomeIcon icon={faNodeJs} 
-                        color="#03C03C" />
-                    </div>
+                    
+                    </form>
+
                 </div>
-
             </div>
         </div>
 
+        </>
     )
 }
 
-
-export default About
+export default Contact

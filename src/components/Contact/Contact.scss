@@ -1,0 +1,90 @@
+.form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.listHalf {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+            
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        border: 0;
+        height: 50px;
+        background-color: #8fd3df;
+        border-radius: 3px;
+        font-size: 16px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0 20px;
+    }
+
+    textarea {
+        width: 100%;
+        border: 0;
+        padding: 10px;
+        background-color: #8fd3df;
+        border-radius: 3px;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        resize: none;
+        min-height: 150px;
+        height: 200px;
+        font-family: 'Open Sans', sans-serif;    
+    }
+
+    .submit-btn {
+        background: 0 0;
+        margin-top: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-family: 'Coolvetica';
+        font-size: 20px;
+        font-weight: 300;
+        color: #90E0EF; 
+        border: 1px solid #90E0EF;
+        border-radius: 5px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        float: left;
+        animation: fadeIN 1s 1.9s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            font-weight: 300;
+            background-color: #90E0EF;
+            color: #333;
+            border: 1px solid #90E0EF;
+          }
+    }
+}
