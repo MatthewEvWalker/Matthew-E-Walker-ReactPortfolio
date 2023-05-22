@@ -1,10 +1,13 @@
 import './Contact.scss'
 import Letters from '../Letters'
-import { useState, useEffect, Input } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import emailjs from "@emailjs/browser"
 
 const Contact = () => {
     
     const [letterClass, setLetterClass] = useState('text-animate') 
+    const formRef = useRef()
+
 
     useEffect(() => {
         setTimeout(() => {
@@ -12,6 +15,20 @@ const Contact = () => {
         }, 3000)        
     }, [])
 
+    const sendEmail = (e) => {
+        e.preventDefault()
+        
+        emailjs.sendForm('service_wj7liva', 'template_6qj6luj', formRef.current, 'UW2HOpTXVow6wLqTd')
+    .then(() => {
+        alert('Email sent!')
+        window.location.reload(false)
+    }, 
+    (error) => {
+        alert('Error sending email. Please try again.')
+        console.log(error.text)
+    })
+
+}
     return (
         <>
         <div className="container contact-page">
@@ -40,7 +57,7 @@ const Contact = () => {
                 </p>
 
                 <div className="form">
-                    <form>
+                    <form ref={formRef} onSubmit={sendEmail}>
                         <ul>
                             <li className='listHalf'>
                                 <input type="text" name="name" placeholder="Name" required/>
