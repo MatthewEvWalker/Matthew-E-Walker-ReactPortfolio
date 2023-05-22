@@ -2,7 +2,7 @@ import { NavLink, Link } from 'react-router-dom';
 import './Sidebar.scss';
 import logoMW from '../../assets/images/MW-logo_thumbnail.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faClipboardCheck, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -15,12 +15,19 @@ const Sidebar = () => (
             <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
             </NavLink>
+
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
-            </NavLink>            
+            </NavLink> 
+
+            <NavLink exact="true" activeclassname="active" className="projects-link" to="/projects">
+                <FontAwesomeIcon icon={faClipboardCheck} color="#4d4d4e"/>
+            </NavLink>
+
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
             </NavLink>
+
         </nav>
         <ul>
             <li>
