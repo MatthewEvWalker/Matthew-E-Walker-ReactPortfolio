@@ -48,6 +48,8 @@
             &:hover {
                 color: rgb(193, 250, 4);
                 // color: #CAF0F8;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                
 
                 svg {
                     opacity: .5;
@@ -83,6 +85,13 @@
                     content: "ABOUT ME"
                 }
             }
+
+            a.projects-link {
+                &::after {
+                    content: "PROJECTS" 
+                }
+            }
+
             a.contact-link {
                 &::after {
                     content: "CONTACT"
