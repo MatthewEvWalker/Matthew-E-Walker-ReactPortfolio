@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import './Home.scss'
 import Letters from "../Letters"
 import React, { useState, useEffect } from 'react';
-
+import me1 from '../../assets/images/landscape_sun_field.jpg';
+import me2 from '../../assets/images/mount_river.avif';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate') 
@@ -54,6 +55,23 @@ const Home = () => {
 
                 <Link to="/contact" className="contact-btn">CONTACT</Link>
             </div>
+
+            <div className="spinning-photo">
+                <div className="photos">
+                    <div className="sunrise">
+                        <img src={me1} height="800" width="425" />
+
+                    </div>
+
+                    <div className="mountain">
+                        <img src={me2} height="800" width="425" />
+
+                    </div>
+                    
+                </div>
+            
+            </div>
+
         </div>
     )
 }

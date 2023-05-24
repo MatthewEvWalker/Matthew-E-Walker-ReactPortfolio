@@ -1,12 +1,16 @@
 .home-page {
-
+  background-color: #333;
+  // max-width: 55%;
+  
     .text-area {
+        background-color: blue;
         position: absolute;
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        // margin-left: 20px;
     }
 
     h1 {
@@ -72,4 +76,71 @@
       border: 1px solid #90E0EF;
     }
   }
+
+
+  .spinning-photo {
+    background-color: red;
+    position: absolute;
+    right: 10%;
+    top:4%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+    animation: fadeIn 1s 1.5s backwards;
+    animation-delay: 1.5s;
+  }
+
+  .photos {
+    animation-name: spinFace;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    transform-style: preserve-3d;
+    // transform-origin: 100px 100px;
+    margin-left: calc(50% - 100px);
+
+    div {
+        position: absolute;
+        height: 800px;
+        width: 425px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0px #00B4D8;
+        border-radius: 40%;
+    }
+
+    .sunrise {
+      transform: translateZ(0.1px);
+
+      img {
+        border-radius: 40%;
+        border: 3px solid #282929;
+      }
+
+    }
+
+    .mountain {
+     
+      img {
+        border-radius: 40%;
+        border: 3px solid #282929;
+      }
+
+    }
+    
+    @keyframes spinFace {
+      from, 
+      
+      to {
+        transform: rotateY(0deg);
+      }
+      50% {
+        transform: rotateY(180deg);
+      }
+      
+    }
+  
+  }
+
 }
