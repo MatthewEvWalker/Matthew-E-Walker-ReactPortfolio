@@ -1,9 +1,7 @@
 .home-page {
-  background-color: #333;
   // max-width: 55%;
   
     .text-area {
-        background-color: blue;
         position: absolute;
         left: 10%;
         top: 50%;
@@ -79,7 +77,6 @@
 
 
   .spinning-photo {
-    background-color: red;
     position: absolute;
     right: 10%;
     top:4%;
@@ -133,12 +130,11 @@
       from, 
       
       to {
-        transform: rotateY(0deg);
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
       }
       50% {
         transform: rotateY(180deg);
       }
-      
     }
   
   }
