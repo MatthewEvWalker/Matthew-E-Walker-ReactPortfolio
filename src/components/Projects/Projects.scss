@@ -1,6 +1,6 @@
 .projects-page {
     .text-area {
-        background-color: green;
+        // background-color: green;
         position: absolute;
         left: 10%;
         top: 30%;
@@ -95,6 +95,7 @@
             border-radius: 5%;
             overflow: hidden;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            // object-fit: none;
 
             &:hover {
                 cursor: pointer;
