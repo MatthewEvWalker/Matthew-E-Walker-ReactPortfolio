@@ -95,24 +95,30 @@
     transform-style: preserve-3d;
     // transform-origin: 100px 100px;
     margin-left: calc(50% - 100px);
+    margin-top: 180px;
+    // position: absolute;
 
     div {
         position: absolute;
-        height: 800px;
+        height: 625px;
         width: 425px;
         display: flex;
         justify-content: center;
         align-items: center;
         box-shadow: 0 0 15px #51c7df;
-        border-radius: 40%;
+        border-radius: 60%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .sunrise {
       transform: translateZ(0.1px);
 
       img {
-        border-radius: 40%;
-        border: 3px solid #282929;
+        border-radius: 60%;
+        border: 3px solid #fff;
+        overflow: hidden;
+        object-fit: cover;
+        // object-position: top;
       }
 
     }
@@ -120,8 +126,9 @@
     .mountain {
      
       img {
-        border-radius: 40%;
-        border: 3px solid #282929;
+        border-radius: 60%;
+        border: 3px solid #fff;
+        overflow: hidden;
       }
 
     }

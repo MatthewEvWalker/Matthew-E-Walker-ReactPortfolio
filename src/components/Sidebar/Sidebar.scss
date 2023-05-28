@@ -2,7 +2,9 @@
     // background: #EF8354;
     // background: #1D8A99;
     // background-color: #0077B6;
-    background-color: #d3f1fb;
+    // background-color: #d3f1fb;
+    background-color: #082d3a;
+
 
     width: 70px;
     height: 100%;
@@ -35,7 +37,7 @@
 
         a {
             font-size: 22px;
-            color: #4d4d4e;
+            color: #cbd0d2;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -101,7 +103,7 @@
 
             a.active {
                 svg {
-                    color: #1dc3e0;
+                    color: #0077B6;
                 }
             }
         } 
@@ -117,13 +119,14 @@
 
             li {
                 a {
+                    color: #cbd0d2;
                     padding: 9px 0; 
                     display: block;
                     font-size: 23px;
                     line-height: 16px;
 
                     &:hover svg {
-                        color: #1dc3e0;
+                        color: #0077B6;
                     }
                 }
             }
