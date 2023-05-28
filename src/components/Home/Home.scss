@@ -22,7 +22,7 @@
         &:before {
           content: '<h1>';
           font-family: 'La Belle Aurore', cursive;
-          color: yellow;
+          color: #0077B6;
           font-size: 18px;
           position: absolute;
           margin-top: -40px;
@@ -33,7 +33,7 @@
         &:after {
           content: '<h1/>';
           font-family: 'La Belle Aurore', cursive;
-          color: yellow;
+          color: #1c81b4;
           font-size: 18px;
           position: absolute;
           margin-top: 18px;
@@ -44,11 +44,11 @@
     }
 
   h2 {
-    color: #BFC0C0;
+    color: #0a4a6c;
     font-family: 'Coolvetica';
     font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 4px;
+    font-size: 16px;
+    letter-spacing: 3.5px;
     animation: fadeIn 1s 1.8s backwards;
   }
 
@@ -59,7 +59,7 @@
     font-weight: 300;
     letter-spacing: 3px;
     text-decoration: none;
-    border: 1px solid #90E0EF;
+    border: 1.5px solid #90E0EF;
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 25px;
@@ -103,7 +103,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0 0 20px 0px #00B4D8;
+        box-shadow: 0 0 15px #51c7df;
         border-radius: 40%;
     }
 

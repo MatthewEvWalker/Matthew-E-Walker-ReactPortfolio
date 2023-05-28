@@ -8,7 +8,9 @@ body {
   color: #333;
   /* background-color: #2D3142; */
   /* background-color: #4F5D75; */
-  background-color: #12425c;
+
+  /* background-color: #12425c; */
+  background-color: #1c81b4;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
