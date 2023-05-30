@@ -1,12 +1,14 @@
 import './Projects.scss'
 import Letters from '../Letters'
 import { useState, useEffect } from 'react'
-import me1 from '../../assets/images/landscape_sun_field.jpg';
-import me2 from '../../assets/images/mount_river.avif';
 import crypto from '../../assets/images/crypto-game.png';
 import slither from '../../assets/images/slither.png';
 import workDay from '../../assets/images/work-day-scheduler.png';
 import password from '../../assets/images/password-gen.png';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 const Project = () => {
     const [letterClass, setLetterClass] = useState('text-animate') 
@@ -31,46 +33,90 @@ const Project = () => {
                 </h1>
 
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet scelerisque risus quis auctor. Ut ac nisi quis ex rhoncus eleifend nec non tortor. Fusce porttitor a dui non maximus. Curabitur vehicula varius massa non blandit. Proin feugiat turpis sem, et consequat augue pretium quis. Aenean vitae bibendum lectus. Nullam vestibulum arcu vestibulum nisi volutpat, tristique ornare nibh tempus. In sed luctus quam, non dapibus est.
+                The following are some of my projects. Click on the images to view the deployed application or the GitHub icons in the bottom left of the projects to view the code on GitHub.
+
+
                 </p>
+
+                <h2>
+                    whatacrypto
+                </h2>
+
+                
             </div>
 
+
             <div className="project-area">
-                <div className="project-1">
-                    {/* <h2>Project 1</h2> */}
-                    <a target="_blank" href='https://matthewevwalker.github.io/whatacrypto-crypto-game/' >
-                        <img src={crypto} height="300" width="425" />
-                    </a>
+                    
+                    <div className="project-1">
+                        {/* <h2>Project 1</h2> */}
 
 
-                </div>
+                        <a target="_blank" href='https://matthewevwalker.github.io/whatacrypto-crypto-game/' >
+                            <img src={crypto} height="300" width="425" />
+                        </a>
 
-                <div className="project-2" >
-                    {/* <h2>Project 1</h2> */}
+                        <a className='github-icons'
+                            target="_blank" 
+                            rel='noreferrer' 
+                            href='https://github.com/MatthewEvWalker/whatacrypto-crypto-game'
+                            >
+                            <FontAwesomeIcon icon={faGithub}  />
+                        </a>
 
-
-                    <a target="_blank" href='https://github.com/MatthewEvWalker/Slither-AI' >
-                        <img src={slither} height="300" width="425" />
-                    </a>
-
-                </div>
-
-                <div className="project-3">
-                    {/* <h2>Project 1</h2> */}
-                    <a target="_blank" href='https://matthewevwalker.github.io/work-scheduler-5/' >
-                        <img src={workDay} height="300" width="425" />
-                    </a>
-
-                </div>
-
-                <div className="project-4">
-                    {/* <h2>Project 1</h2> */}
-                    <a target="_blank" href='https://matthewevwalker.github.io/Password_Generator/' >
-                        <img src={password} height="300" width="425" />
-                    </a>
+                    </div>
 
 
-                </div>
+                    <div className="project-2" >
+                        {/* <h2>Project 1</h2> */}
+
+
+                        <a target="_blank" href='https://github.com/MatthewEvWalker/Slither-AI' >
+                            <img src={slither} height="300" width="425" />
+                        </a>
+
+                        <a className='github-icons'
+                            target="_blank" 
+                            rel='noreferrer' 
+                            href='https://github.com/MatthewEvWalker/whatacrypto-crypto-game'
+                            >
+                            <FontAwesomeIcon icon={faGithub}  />
+                        </a>
+
+                    </div>
+
+                    <div className="project-3">
+                        {/* <h2>Project 1</h2> */}
+                        <a target="_blank" href='https://matthewevwalker.github.io/work-scheduler-5/' >
+                            <img src={workDay} height="300" width="425" />
+                        </a>
+
+                        <a className='github-icons'
+                            target="_blank" 
+                            rel='noreferrer' 
+                            href='https://github.com/MatthewEvWalker/whatacrypto-crypto-game'
+                            >
+                            <FontAwesomeIcon icon={faGithub}  />
+                        </a>
+
+                    </div>
+
+                    <div className="project-4">
+                        {/* <h2>Project 1</h2> */}
+                        <a target="_blank" href='https://matthewevwalker.github.io/Password_Generator/' >
+                            <img src={password} height="300" width="425" />
+                        </a>
+
+                        <a className='password-gen-github'
+                            target="_blank" 
+                            rel='noreferrer' 
+                            href='https://github.com/MatthewEvWalker/whatacrypto-crypto-game'
+                            >
+                            <FontAwesomeIcon icon={faGithub}  />
+                        </a>
+
+                    </div>
+
             </div>
         </div>
     )
