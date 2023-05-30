@@ -26,7 +26,7 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet scelerisque risus quis auctor. Ut ac nisi quis ex rhoncus eleifend nec non tortor. Fusce porttitor a dui non maximus. Curabitur vehicula varius massa non blandit. Proin feugiat turpis sem, et consequat augue pretium quis. Aenean vitae bibendum lectus. Nullam vestibulum arcu vestibulum nisi volutpat, tristique ornare nibh tempus. In sed luctus quam, non dapibus est.
+                I achieved my Full Stack Developer Certifciate through <a className="UT-tag" target="_blank" href='https://techbootcamps.utexas.edu/' >The University of Texas at Austin BootCamp</a> I have a passion for learning and I am always looking for ways to improve my skills. I am currently working on a project that uses Reinforced Learning to automate the snake game. I am also working on a project that uses the MERN stack to create a cryptocurrency game. I am looking for a position that will allow me to continue to learn and grow as a developer.
 
 
                 </p>

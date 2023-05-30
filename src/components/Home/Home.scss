@@ -59,7 +59,7 @@
     font-weight: 300;
     letter-spacing: 3px;
     text-decoration: none;
-    border: 1.5px solid #90E0EF;
+    border: 2px solid #90E0EF;
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 25px;
@@ -72,6 +72,33 @@
       background-color: #90E0EF;
       color: #333;
       border: 1px solid #90E0EF;
+    }
+  }
+
+
+  .resume-btn {
+    cursor: pointer;
+    font-family: 'Coolvetica';
+    font-size: 20px;
+    background-color: transparent; 
+    color: #CAF0F8;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-decoration: none;
+    border: 2px solid #CAF0F8;
+    border-radius: 5px;
+    padding: 12.5px 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    animation: fadeIN 1s 1.9s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      font-weight: 300;
+      background-color: #CAF0F8;
+      color: #03045E;
+      border: 1px solid #CAF0F8;
     }
   }
 

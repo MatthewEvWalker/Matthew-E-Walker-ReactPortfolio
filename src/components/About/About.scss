@@ -1,11 +1,25 @@
+p {
+    font-size: 20px;
+}
+
+.UT-tag {
+    color: #f66c0a;
+    // backdrop-filter: blur(10px);
+    background-color: #fff;
+    // background-opacity: 0.5;
+    border: 1px solid #f66c0a;
+}
+
+
+
 .stage-cube-cont {
-    width: 50%;
+    width: 30%;
     height: 100%;
-    top: 0;
+    top: -10%;
     padding-top: 18%;
     margin-left: 0;
     position: absolute;
-    right: 0;
+    right: 15%;
     overflow: hidden;
 }
 

@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import './Home.scss'
 import Letters from "../Letters"
 import React, { useState, useEffect } from 'react';
-import me2 from '../../assets/images/mount_river.avif';
 import usual from "../../assets/images/usual.jpeg"
 import austin from "../../assets/images/Vert-Austin_skyline.jpg"
+import resume from "../../assets/images/resume.pdf"
 
 
 const Home = () => {
@@ -56,6 +56,7 @@ const Home = () => {
                 </h2>
 
                 <Link to="/contact" className="contact-btn">CONTACT</Link>
+                <a href={resume} download><button className="resume-btn">RESUME DOWNLOAD</button></a>
             </div>
 
             <div className="spinning-photo">
