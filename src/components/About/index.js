@@ -43,7 +43,7 @@ const About = () => {
 
             </div>
 
-
+                    
             <div className="UT-area">
                 <img className="UT-img" src={certificate} alt="placeholder" />
 

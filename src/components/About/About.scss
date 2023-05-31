@@ -3,7 +3,7 @@
 }
 
 .UT-img {
-    position: absolute;
+    position: relative;
     border: 5px solid #000000;
     border-radius: 5%;
     width: 20%;
@@ -39,6 +39,13 @@
             transition: all 0.5s ease-in-out;
         }
     }
+
+    @media (max-width: 768px) {
+        .boy-scout {
+          width: 200px;
+          height: 150px;
+        }
+      }
 }
 
 .stage-cube-cont {
