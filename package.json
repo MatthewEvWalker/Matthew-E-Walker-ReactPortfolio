@@ -1,7 +1,7 @@
 {
   "name": "matthew_react_portfolio",
   "version": "0.1.0",
-  "homepage": "http://MatthewEvWalker.github.io/Matthew-E-Walker-ReactPortfolio",
+  "homepage": "https://MatthewEvWalker.github.io/Matthew-E-Walker-ReactPortfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
