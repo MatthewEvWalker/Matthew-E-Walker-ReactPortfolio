@@ -2,6 +2,7 @@ import './Contact.scss'
 import Letters from '../Letters'
 import { useState, useEffect, useRef } from 'react'
 import emailjs from "@emailjs/browser"
+import austin from "../../assets/images/austin.jpg"
 
 const Contact = () => {
     
@@ -40,20 +41,21 @@ const Contact = () => {
                     />
                 </h1>
 
-                <p className='contact-p'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet scelerisque risus quis auctor. Ut ac nisi quis ex rhoncus eleifend nec non tortor. Fusce porttitor a dui non maximus. Curabitur vehicula varius massa non blandit. Proin feugiat turpis sem, et consequat augue pretium quis. Aenean vitae bibendum lectus. Nullam vestibulum arcu vestibulum nisi volutpat, tristique ornare nibh tempus. In sed luctus quam, non dapibus est.
-
-
+                <p>
+                    I live in Austin, Texas. If you need to reach me for any reason, please feel free to contact me at the email below. I will get back to you as soon as possible. Thank you for visiting my portfolio! 
                 </p>
-                <p className='contact-p'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
-
+                <p>
+                    matthewevwalker@gmail.com 
+                    <br/> 
+                    512-660-9336 
                 </p>
-                <p className='contact-p'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet scelerisque risus quis auctor. Ut ac nisi quis ex rhoncus eleifend nec non tortor. Fusce porttitor a dui non maximus. Curabitur vehicula varius massa non blandit. Proin feugiat turpis sem, et consequat augue pretium quis. Aenean vitae bibendum lectus. Nullam vestibulum arcu vestibulum nisi volutpat, tristique ornare nibh tempus. In sed luctus quam, non dapibus est.
 
-  
+                <p>
+                    <a className="a-tag" href="https://www.linkedin.com/in/matthewevwalker/" target="_blank">LinkedIn</a>
+
+                    <br/> 
+                    <a className="a-tag" href="https://github.com/MatthewEvWalker/" target="_blank">GitHub</a>
                 </p>
 
                 <div className="form">
@@ -88,6 +90,11 @@ const Contact = () => {
 
                 </div>
             </div>
+
+            <div className="texas-img">
+                <img src={austin} width="800px" height="800px"/>
+            </div>
+
         </div>
 
         </>

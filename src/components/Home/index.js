@@ -52,7 +52,7 @@ const Home = () => {
                 </h1>
 
                 <h2>
-                React Dev | Intermediate Python Programmer | Advanced Javascript Skills
+                React Dev | Advanced Javascript Skills | Intermediate Python Programmer 
                 </h2>
 
                 <Link to="/contact" className="contact-btn">CONTACT</Link>
