@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Matthew-E-Walker-ReactPortfolio/static/css/main.ba69e808.css",
+    "main.js": "/Matthew-E-Walker-ReactPortfolio/static/js/main.38ab460f.js",
+    "static/media/austin.jpg": "/Matthew-E-Walker-ReactPortfolio/static/media/austin.643924740544c68f8e1f.jpg",
+    "static/media/boy_scout.jpeg": "/Matthew-E-Walker-ReactPortfolio/static/media/boy_scout.fee9cefbf494d3a26a0a.jpeg",
+    "static/media/usual.jpeg": "/Matthew-E-Walker-ReactPortfolio/static/media/usual.e7e460f50b46d7a51788.jpeg",
+    "static/media/Vert-Austin_skyline.jpg": "/Matthew-E-Walker-ReactPortfolio/static/media/Vert-Austin_skyline.69aa44ce7e54618360d5.jpg",
+    "static/media/bootcamp.png": "/Matthew-E-Walker-ReactPortfolio/static/media/bootcamp.be997d15328ceacad52e.png",
+    "static/media/resume.pdf": "/Matthew-E-Walker-ReactPortfolio/static/media/resume.029e62025b97b00989cf.pdf",
+    "static/media/crypto-game.png": "/Matthew-E-Walker-ReactPortfolio/static/media/crypto-game.14ae02b2752f7f4b66e9.png",
+    "static/media/work-day-scheduler.png": "/Matthew-E-Walker-ReactPortfolio/static/media/work-day-scheduler.b437d85c208a78e20711.png",
+    "static/media/password-gen.png": "/Matthew-E-Walker-ReactPortfolio/static/media/password-gen.1a609f35b097402197e8.png",
+    "static/media/slither.png": "/Matthew-E-Walker-ReactPortfolio/static/media/slither.1bf38046e120c1a36b85.png",
+    "static/media/helvetica-neu.ttf": "/Matthew-E-Walker-ReactPortfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Matthew-E-Walker-ReactPortfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/MW-logo_thumbnail.png": "/Matthew-E-Walker-ReactPortfolio/static/media/MW-logo_thumbnail.d49522300c91b4df8e04.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/Matthew-E-Walker-ReactPortfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Matthew-E-Walker-ReactPortfolio/index.html",
+    "main.ba69e808.css.map": "/Matthew-E-Walker-ReactPortfolio/static/css/main.ba69e808.css.map",
+    "main.38ab460f.js.map": "/Matthew-E-Walker-ReactPortfolio/static/js/main.38ab460f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba69e808.css",
+    "static/js/main.38ab460f.js"
+  ]
+}
