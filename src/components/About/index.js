@@ -3,6 +3,8 @@ import Letters from "../Letters"
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCss3, faHtml5, faJsSquare, faNodeJs, faPython, faReact } from "@fortawesome/free-brands-svg-icons"
+import certificate from "../../assets/images/bootcamp.png"
+import boyScout from "../../assets/images/boy_scout.jpeg"
 
 const About = () => {
 
@@ -25,21 +27,25 @@ const About = () => {
                     index={20}
                     />
                 </h1>
+
+
                 <p>
-                I achieved my Full Stack Developer Certifciate through <a className="UT-tag" target="_blank" href='https://techbootcamps.utexas.edu/' >The University of Texas at Austin BootCamp</a> I have a passion for learning and I am always looking for ways to improve my skills. I am currently working on a project that uses Reinforced Learning to automate the snake game. I am also working on a project that uses the MERN stack to create a cryptocurrency game. I am looking for a position that will allow me to continue to learn and grow as a developer.
+                I am an Eagle Scout from Troop 511 in Austin, TX. I enjoy hiking, camping, and spending time with my family. I am a huge fan of the Dallas Cowboys and the Texas Longhorns. During my free time I enjoy playing video games, learning new coding languages and learning the Piano. 
+                </p>
 
-
+                <p>
+                I achieved my Full Stack Developer Certifciate through <a className="UT-tag" target="_blank" href='https://techbootcamps.utexas.edu/' >The University of Texas at Austin BootCamp</a> The coding languages I learned can be seen on the Cube to the right such as HTML, CSS, Javascript, Python, NodeJS and React. As well as Data/Route languages like MongoDB, MySQL and ExpressJS.
                 </p>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet scelerisque risus quis auctor. Ut ac nisi quis ex rhoncus eleifend nec non tortor. Fusce porttitor a dui non maximus. Curabitur vehicula varius massa non blandit. Proin feugiat turpis sem, et consequat augue pretium quis. Aenean vitae bibendum lectus. Nullam vestibulum arcu vestibulum nisi volutpat, tristique ornare nibh tempus. In sed luctus quam, non dapibus est.
-
-
+                I currently attend Austin Community College and I am working towards my Associates Degree in Computer Science. I am  working on my Google Data, Data, Everywhere Certification and Codecademy Machine Learning Certificate. I am also developing a few personal business projects that I will be adding to my portfolio soon. Always open to news opportunities to work alongside coworkers in the Tech Field! 
                 </p>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet scelerisque risus quis auctor. Ut ac nisi quis ex rhoncus eleifend nec non tortor. Fusce porttitor a dui non maximus. Curabitur vehicula varius massa non blandit. Proin feugiat turpis sem, et consequat augue pretium quis. Aenean vitae bibendum lectus. Nullam vestibulum arcu vestibulum nisi volutpat, tristique ornare nibh tempus. In sed luctus quam, non dapibus est.
 
-  
-                </p>
+
+            </div>
+
+
+            <div className="UT-area">
+                <img className="UT-img" src={certificate} alt="placeholder" />
 
             </div>
 
@@ -77,6 +83,11 @@ const About = () => {
                 </div>
 
             </div>
+
+            <div className="image-area">
+                <img className="boy-scout" src={boyScout} alt="placeholder" width="400" height="650" />
+            </div>
+
         </div>
 
     )
