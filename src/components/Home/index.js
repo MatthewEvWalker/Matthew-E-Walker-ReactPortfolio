@@ -56,7 +56,7 @@ const Home = () => {
                 </h2>
 
                 <Link to="/contact" className="contact-btn">CONTACT</Link>
-                <a href={resume} download><button className="resume-btn">RESUME DOWNLOAD</button></a>
+                <a href={resume} download><button className="resume-btn">DOWNLOAD RESUME</button></a>
             </div>
 
             <div className="spinning-photo">
