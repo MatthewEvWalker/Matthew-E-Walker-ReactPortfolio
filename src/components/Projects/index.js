@@ -71,8 +71,8 @@ const Project = () => {
             <div className="project-area">
                     
                     <div className="project-1">
-                        <a target="_blank" href='https://matthewevwalker.github.io/whatacrypto-crypto-game/' >
-                            <img src={crypto} height="300" width="425" />
+                        <a target="_blank" rel="noreferrer" href='https://matthewevwalker.github.io/whatacrypto-crypto-game/' >
+                            <img alt="crypto" src={crypto} height="300" width="425" />
                         </a>
 
                         <a className='github-icons'
@@ -87,8 +87,8 @@ const Project = () => {
 
 
                     <div className="project-2" >
-                        <a target="_blank" href='https://github.com/MatthewEvWalker/Slither-AI' >
-                            <img src={slither} height="300" width="425" />
+                        <a target="_blank" rel="noreferrer" href='https://github.com/MatthewEvWalker/Slither-AI' >
+                            <img alt="slither" src={slither} height="300" width="425" />
                         </a>
 
                         <a className='github-icons'
@@ -102,8 +102,8 @@ const Project = () => {
                     </div>
 
                     <div className="project-3">
-                        <a target="_blank" href='https://matthewevwalker.github.io/work-scheduler-5/' >
-                            <img src={workDay} height="300" width="425" />
+                        <a target="_blank" rel="noreferrer" href='https://matthewevwalker.github.io/work-scheduler-5/' >
+                            <img alt="work-day" src={workDay} height="300" width="425" />
                         </a>
 
                         <a className='github-icons'
@@ -117,8 +117,8 @@ const Project = () => {
                     </div>
 
                     <div className="project-4">
-                        <a target="_blank" href='https://matthewevwalker.github.io/Password_Generator/' >
-                            <img src={password} height="300" width="425" />
+                        <a target="_blank" rel="noreferrer" href='https://matthewevwalker.github.io/Password_Generator/' >
+                            <img alt="password-gen" src={password} height="300" width="425" />
                         </a>
 
                         <a className='password-gen-github'

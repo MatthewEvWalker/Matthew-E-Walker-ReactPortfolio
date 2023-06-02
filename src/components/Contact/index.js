@@ -52,10 +52,10 @@ const Contact = () => {
                 </p>
 
                 <p>
-                    <a className="a-tag" href="https://www.linkedin.com/in/matthewevwalker/" target="_blank">LinkedIn</a>
+                    <a className="a-tag" href="https://www.linkedin.com/in/matthewevwalker/" target="_blank" rel="noreferrer">LinkedIn</a>
 
                     <br/> 
-                    <a className="a-tag" href="https://github.com/MatthewEvWalker/" target="_blank">GitHub</a>
+                    <a className="a-tag" href="https://github.com/MatthewEvWalker/" target="_blank" rel="noreferrer">GitHub</a>
                 </p>
 
                 <div className="form">
@@ -92,7 +92,7 @@ const Contact = () => {
             </div>
 
             <div className="texas-img">
-                <img src={austin} width="800px" height="800px"/>
+                <img alt="austin" src={austin} width="800px" height="800px"/>
             </div>
 
         </div>

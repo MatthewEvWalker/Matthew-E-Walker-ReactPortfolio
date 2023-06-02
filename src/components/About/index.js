@@ -34,7 +34,7 @@ const About = () => {
                 </p>
 
                 <p>
-                I achieved my Full Stack Developer Certifciate through <a className="UT-tag" target="_blank" href='https://techbootcamps.utexas.edu/' >The University of Texas at Austin BootCamp</a> The coding languages I learned can be seen on the Cube to the right such as HTML, CSS, Javascript, Python, NodeJS and React. As well as Data/Route languages like MongoDB, MySQL and ExpressJS.
+                I achieved my Full Stack Developer Certifciate through <a className="UT-tag" target="_blank" rel="noreferrer" href='https://techbootcamps.utexas.edu/' >The University of Texas at Austin BootCamp</a> The coding languages I learned can be seen on the Cube to the right such as HTML, CSS, Javascript, Python, NodeJS and React. As well as Data/Route languages like MongoDB, MySQL and ExpressJS.
                 </p>
                 <p>
                 I currently attend Austin Community College and I am working towards my Associates Degree in Computer Science. I am  working on my Google Data, Data, Everywhere Certification and Codecademy Machine Learning Certificate. I am also developing a few personal business projects that I will be adding to my portfolio soon. Always open to news opportunities to work alongside coworkers in the Tech Field! 
