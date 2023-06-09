@@ -15,8 +15,6 @@ const Home = () => {
     const webDevList2 = ["D", "e", "v", "e", "l", "o", "p", "e", "r"]
     const pythonList = [" ", "a", "n", "d", " ", "D", "a", "t", "a", " ", "A", "n", "a", "l", "y", "s", "t"]
 
-
-
     useEffect(() => {
         setTimeout(() => {
             setLetterClass("text-animate-hover")
