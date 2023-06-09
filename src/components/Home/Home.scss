@@ -1,15 +1,97 @@
 .home-page {
   // max-width: 55%;
-  
+ 
     .text-area {
+        background-color: red;
+        // display: flex;
         position: absolute;
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
-        // margin-left: 20px;
+
+
+        @media (max-width: 1700px) {
+          .text-area {
+            width: 200px;
+            height: 150px;
+          }
+         
+          // .spinning-photo {
+          //   width: 200px;
+          //   height: 200px;
+          // }
+
+          // .photos {
+          //   height: 200px;
+          //   width: 200px;
+
+          // }
+
+          h1 {
+            font-size: 45px;
+          }
+
+
+          h2 {
+            font-size: 14px;
+          }
+        }
+
+
+        @media (max-width: 1402px) {
+          .text-area {
+            width: 45%;
+            height: 150px;
+          }
+
+          h1 {
+            font-size: 39px;
+          }
+        }
+       
+        @media (max-width: 1250px) {
+          .text-area {
+            width: 45%;
+            height: 150px;
+          }
+
+          h1 {
+            font-size: 32px;
+          }
+         
+          .resume-btn {
+            // width: 200px;
+            font-size: 16px;
+          }
+
+          .contact-btn {
+            font-size: 17px;
+          }
+        }
+
+        @media (max-width: 1000px) {
+          .text-area {
+            width: 45%;
+            height: 150px;
+          }
+
+          h1 {
+            font-size: 28px;
+          }
+         
+          .resume-btn {
+            // width: 200px;
+            font-size: 16px;
+          }
+
+          .contact-btn {
+            font-size: 17px;
+          }
+        }
     }
+
 
     h1 {
         color: #fff;
@@ -18,7 +100,7 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-    
+   
         &:before {
           content: '<h1>';
           font-family: 'La Belle Aurore', cursive;
@@ -29,7 +111,7 @@
           left: -15px;
           opacity: 0.6;
         }
-    
+   
         &:after {
           content: '<h1/>';
           font-family: 'La Belle Aurore', cursive;
@@ -43,6 +125,7 @@
         }
     }
 
+
   h2 {
     color: #0a4a6c;
     font-family: 'Coolvetica';
@@ -52,10 +135,11 @@
     animation: fadeIn 1s 1.8s backwards;
   }
 
+
   .contact-btn {
     font-family: 'Coolvetica';
     font-size: 20px;
-    color: #90E0EF; 
+    color: #90E0EF;
     font-weight: 300;
     letter-spacing: 3px;
     text-decoration: none;
@@ -67,6 +151,7 @@
     animation: fadeIN 1s 1.9s backwards;
     white-space: nowrap;
 
+
     &:hover {
       font-weight: 300;
       background-color: #90E0EF;
@@ -75,12 +160,11 @@
     }
   }
 
-
   .resume-btn {
     cursor: pointer;
     font-family: 'Coolvetica';
     font-size: 20px;
-    background-color: transparent; 
+    background-color: transparent;
     color: #CAF0F8;
     font-weight: 300;
     letter-spacing: 3px;
@@ -94,6 +178,7 @@
     animation: fadeIN 1s 1.9s backwards;
     white-space: nowrap;
 
+
     &:hover {
       font-weight: 300;
       background-color: #CAF0F8;
@@ -102,30 +187,41 @@
     }
   }
 
-
   .spinning-photo {
-    position: absolute;
-    right: 10%;
-    top:4%;
+    background-color: green;
+    bottom: 0;
+    display: flex;
+    // flex-direction: wrap;
+    // justify-content: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
     transform: translateY(-50%);
     width: 40%;
+    height: 100%;
     max-height: 90%;
     animation: fadeIn 1s 1.5s backwards;
     animation-delay: 1.5s;
   }
 
+
   .photos {
+    left: 15%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     animation-name: spinFace;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 10s;
     transform-style: preserve-3d;
-    // transform-origin: 100px 100px;
     margin-left: calc(50% - 100px);
-    margin-top: 180px;
-    // position: absolute;
+    // margin-top: 180px;
+
 
     div {
+        display: flex;
         position: absolute;
         height: 625px;
         width: 500px;
@@ -137,8 +233,10 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
-    .sunrise {
+
+    .me {
       transform: translateZ(0.1px);
+
 
       img {
         border-radius: 60%;
@@ -148,9 +246,11 @@
         // object-position: top;
       }
 
+
     }
 
-    .mountain {
+
+    .austin {
      
       img {
         border-radius: 60%;
@@ -158,11 +258,12 @@
         overflow: hidden;
       }
 
+
     }
-    
+   
     @keyframes spinFace {
-      from, 
-      
+      from,
+     
       to {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
       }
@@ -170,7 +271,11 @@
         transform: rotateY(180deg);
       }
     }
-  
+ 
   }
 
+
 }
+
+
+

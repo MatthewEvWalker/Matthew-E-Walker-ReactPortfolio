@@ -59,12 +59,12 @@ const Home = () => {
 
             <div className="spinning-photo">
                 <div className="photos">
-                    <div className="sunrise">
+                    <div className="me">
                         <img src={usual} height="700" width="500" />
 
                     </div>
 
-                    <div className="mountain">
+                    <div className="austin">
                         <img src={austin} height="700" width="500" />
 
                     </div>
