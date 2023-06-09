@@ -91,11 +91,12 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="texas-img">
-                <img alt="austin" src={austin} width="800px" height="800px"/>
-            </div>
 
         </div>
+        
+        <div className="texas-img">
+                <img alt="austin" src={austin} width="800px" height="800px"/>
+            </div>
 
         </>
     )
