@@ -2,6 +2,7 @@
   // max-width: 55%;
  
     .text-area {
+        // margin: auto;
         // display: flex;
         position: absolute;
         left: 10%;
@@ -17,17 +18,6 @@
             height: 150px;
           }
          
-          // .spinning-photo {
-          //   width: 200px;
-          //   height: 200px;
-          // }
-
-          // .photos {
-          //   height: 200px;
-          //   width: 200px;
-
-          // }
-
           h1 {
             font-size: 45px;
           }
@@ -36,8 +26,8 @@
           h2 {
             font-size: 14px;
           }
-        }
 
+        }
 
         @media (max-width: 1402px) {
           .text-area {
@@ -189,8 +179,8 @@
   .spinning-photo {
     bottom: 0;
     display: flex;
-    // flex-direction: wrap;
-    // justify-content: center;
+    flex-direction: wrap;
+    justify-content: center;
     position: relative;
     left: 50%;
     top: 50%;
@@ -221,9 +211,8 @@
     div {
         display: flex;
         position: absolute;
-        height: 625px;
+        height: 600px;
         width: 500px;
-        display: flex;
         justify-content: center;
         align-items: center;
         box-shadow: 0 0 15px #51c7df;
