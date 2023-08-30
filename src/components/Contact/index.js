@@ -56,7 +56,7 @@ const Contact = () => {
             
           </p>
 
-          <p>
+          {/* <p>
             <a
               className="a-tag"
               href="https://www.linkedin.com/in/matthewevwalker/"
@@ -75,7 +75,7 @@ const Contact = () => {
             >
               GitHub
             </a>
-          </p>
+          </p> */}
 
           <div className="form">
             <form ref={formRef} onSubmit={sendEmail}>
