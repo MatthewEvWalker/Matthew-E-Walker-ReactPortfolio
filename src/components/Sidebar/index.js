@@ -50,7 +50,7 @@ const Sidebar = () => (
                 <a 
                 target="_blank" 
                 rel='noreferrer' 
-                href='https://discord.gg/gdaS6Be7'
+                href='https://discord.gg/BhDY8FMBZP'
                 >
                     <FontAwesomeIcon icon={faDiscord}  />
                 </a>

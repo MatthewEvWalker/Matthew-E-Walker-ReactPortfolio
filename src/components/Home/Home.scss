@@ -8,77 +8,8 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        // width: 40%;
         max-height: 90%;
-
-
-        @media (max-width: 1700px) {
-          .text-area {
-            width: 200px;
-            height: 150px;
-          }
-         
-          h1 {
-            font-size: 45px;
-          }
-
-
-          h2 {
-            font-size: 14px;
-          }
-
-        }
-
-        @media (max-width: 1402px) {
-          .text-area {
-            width: 45%;
-            height: 150px;
-          }
-
-          h1 {
-            font-size: 39px;
-          }
-        }
-       
-        @media (max-width: 1250px) {
-          .text-area {
-            width: 45%;
-            height: 150px;
-          }
-
-          h1 {
-            font-size: 32px;
-          }
-         
-          .resume-btn {
-            // width: 200px;
-            font-size: 16px;
-          }
-
-          .contact-btn {
-            font-size: 17px;
-          }
-        }
-
-        @media (max-width: 1000px) {
-          .text-area {
-            width: 45%;
-            height: 150px;
-          }
-
-          h1 {
-            font-size: 28px;
-          }
-         
-          .resume-btn {
-            // width: 200px;
-            font-size: 16px;
-          }
-
-          .contact-btn {
-            font-size: 17px;
-          }
-        }
     }
 
 
@@ -90,28 +21,28 @@
         font-family: 'Coolvetica';
         font-weight: 400;
    
-        &:before {
-          content: '<h1>';
-          font-family: 'La Belle Aurore', cursive;
-          color: #0077B6;
-          font-size: 18px;
-          position: absolute;
-          margin-top: -40px;
-          left: -15px;
-          opacity: 0.6;
-        }
+        // &:before {
+        //   content: '<h1>';
+        //   font-family: 'La Belle Aurore', cursive;
+        //   color: #0077B6;
+        //   font-size: 18px;
+        //   position: absolute;
+        //   margin-top: -40px;
+        //   left: -15px;
+        //   opacity: 0.6;
+        // }
    
-        &:after {
-          content: '<h1/>';
-          font-family: 'La Belle Aurore', cursive;
-          color: #1c81b4;
-          font-size: 18px;
-          position: absolute;
-          margin-top: 18px;
-          margin-left: 20px;
-          animation: fadeIn 1s 1.7s backwards;
-          opacity: 0.6;
-        }
+        // &:after {
+        //   content: '<h1/>';
+        //   font-family: 'La Belle Aurore', cursive;
+        //   color: #1c81b4;
+        //   font-size: 18px;
+        //   position: absolute;
+        //   margin-top: 18px;
+        //   margin-left: 20px;
+        //   animation: fadeIn 1s 1.7s backwards;
+        //   opacity: 0.6;
+        // }
     }
 
 
@@ -223,28 +154,25 @@
 
     .me {
       transform: translateZ(0.1px);
-
-
       img {
         border-radius: 60%;
         border: 3px solid #fff;
         overflow: hidden;
         object-fit: cover;
         // object-position: top;
+        height: 700px;
+        width: 500px;
       }
-
-
     }
 
-
     .austin {
-     
       img {
         border-radius: 60%;
         border: 3px solid #fff;
         overflow: hidden;
+        height: 700px;
+        width: 500px;
       }
-
 
     }
    
@@ -262,7 +190,83 @@
   }
 
 
+  @media (max-width: 1700px) {
+
+ 
+    h1 {
+      font-size: 50px;
+    }
+  
+  
+    h2 {
+      font-size: 16px;
+      width: 80%; /* Set a specific width for the h2 element */
+      // margin-left: auto; /* Push the h2 to the right */
+      margin-right: auto; 
+    }
+  
+  }
+
+
+  @media (max-width: 1402px) {
+
+  
+    h1 {
+      font-size: 45px;
+    }
+      
+    h2 {
+      font-size: 14px;
+      width: 80%; /* Set a specific width for the h2 element */
+      // margin-left: auto; /* Push the h2 to the right */
+      margin-right: auto; 
+    }
+  }
+  
+
 }
 
+
+
+
+// @media (max-width: 1250px) {
+//   .text-area {
+//     width: 45%;
+//     height: 150px;
+//   }
+
+//   h1 {
+//     font-size: 32px;
+//   }
+ 
+//   .resume-btn {
+//     // width: 200px;
+//     font-size: 16px;
+//   }
+
+//   .contact-btn {
+//     font-size: 17px;
+//   }
+// }
+
+// @media (max-width: 1000px) {
+//   .text-area {
+//     width: 45%;
+//     height: 150px;
+//   }
+
+//   h1 {
+//     font-size: 28px;
+//   }
+ 
+//   .resume-btn {
+//     // width: 200px;
+//     font-size: 16px;
+//   }
+
+//   .contact-btn {
+//     font-size: 17px;
+//   }
+// }
 
 

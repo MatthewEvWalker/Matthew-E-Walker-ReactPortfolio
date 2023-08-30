@@ -57,24 +57,27 @@ const Home = () => {
                 <a href={resume} download><button className="resume-btn">DOWNLOAD RESUME</button></a>
             </div>
 
-            <div className="spinning-photo">
+            {/* <div className="spinning-photo">
                 <div className="photos">
                     <div className="me">
-                        <img src={usual} height="700" width="500" />
+                        <img src={usual}  alt=""/>
 
                     </div>
 
                     <div className="austin">
-                        <img src={austin} height="700" width="500" />
+                        <img src={austin} alt=""/>
 
                     </div>
                     
                 </div>
-            
-            </div>
-
+            </div> */}
         </div>
     )
 }
+
+// height="700" width="500"
+// height="700" width="500"
+
+
 
 export default Home
