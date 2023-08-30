@@ -54,10 +54,10 @@ const Home = () => {
                 </h2>
 
                 <Link to="/contact" className="contact-btn">CONTACT</Link>
-                <a href={resume} download><button className="resume-btn">DOWNLOAD RESUME</button></a>
+                <a href={resume} download="Matthew_Walker_Resume"><button className="resume-btn">DOWNLOAD RESUME</button></a>
             </div>
 
-            {/* <div className="spinning-photo">
+            <div className="spinning-photo">
                 <div className="photos">
                     <div className="me">
                         <img src={usual}  alt=""/>
@@ -70,7 +70,7 @@ const Home = () => {
                     </div>
                     
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
