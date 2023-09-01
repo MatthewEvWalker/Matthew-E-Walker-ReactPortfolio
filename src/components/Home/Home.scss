@@ -176,6 +176,17 @@
 
     }
 
+    @media all and (max-width: 1600px) {
+      .home-page {
+        position: initial;
+      }
+    
+      .container {
+        position: initial;
+        
+      }
+    }
+
     @media (max-width: 1600px) {
       .photos {
         left: 10%;
