@@ -176,6 +176,24 @@
 
     }
 
+    @media (max-width: 1700px) {
+
+ 
+      h1 {
+        font-size: 50px;
+      }
+    
+    
+      h2 {
+        font-size: 16px;
+        width: 80%; /* Set a specific width for the h2 element */
+        // margin-left: auto; /* Push the h2 to the right */
+        margin-right: auto; 
+      }
+    
+    }
+
+
     @media all and (max-width: 1600px) {
       .home-page {
         position: initial;
@@ -183,7 +201,7 @@
     
       .container {
         position: initial;
-        
+
       }
     }
 
@@ -241,22 +259,7 @@
   }
 
 
-  @media (max-width: 1700px) {
 
- 
-    h1 {
-      font-size: 50px;
-    }
-  
-  
-    h2 {
-      font-size: 16px;
-      width: 80%; /* Set a specific width for the h2 element */
-      // margin-left: auto; /* Push the h2 to the right */
-      margin-right: auto; 
-    }
-  
-  }
 
 
   @media (max-width: 1402px) {

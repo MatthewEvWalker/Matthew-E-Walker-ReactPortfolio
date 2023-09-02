@@ -209,11 +209,14 @@
 
         .close-icon {
             display: block;
-            color:  #90E0EF;
-            transform: translateX(557%);
+            color: #90E0EF;
             position: absolute;
-            margin-top: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
         }
+        
     }
     
 
