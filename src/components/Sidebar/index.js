@@ -34,7 +34,9 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEnvelope} />
             </NavLink>
             {/* </ul> */}
-            <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} size="4x" color="#0077B6" className='close-icon'/>
+            <NavLink onClick={() => setShowNav(false)} className="close-link" >
+                <FontAwesomeIcon   icon={faClose} size="2x"  />
+            </NavLink>
         </nav>
         <ul>
             <li>
