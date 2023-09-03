@@ -35,7 +35,7 @@ const Sidebar = () => {
             </NavLink>
             {/* </ul> */}
             <NavLink onClick={() => setShowNav(false)} className="close-link" >
-                <FontAwesomeIcon   icon={faClose} size="2x"  />
+                <FontAwesomeIcon   icon={faClose} size="2x"  className="close-icon"/>
             </NavLink>
         </nav>
         <ul>
