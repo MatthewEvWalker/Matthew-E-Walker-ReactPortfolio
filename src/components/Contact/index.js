@@ -48,7 +48,7 @@ const Contact = () => {
           </h1>
 
           <p>
-            I live in Austin, Texas. If you need to reach me for any reason,
+            If you need to reach me,
             please feel free to contact me at the email below. I will get back
             to you as soon as possible. Thank you for visiting my portfolio!
             <br/>
@@ -117,10 +117,10 @@ const Contact = () => {
             </form>
           </div>
         </div>
-{/*         
-        <div className="texas-img">
-        <img alt="austin" src={austin} />
-      </div> */}
+          
+        {/* <div className="texas-img">
+          <img alt="austin" src={austin} />
+        </div> */}
       </div>
 
 

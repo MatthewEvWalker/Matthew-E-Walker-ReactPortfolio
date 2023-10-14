@@ -242,7 +242,14 @@
         width: 400px;
         height: 500px; /* Adjust the aspect ratio for smaller screens */
       }
+
+      .resume-btn {
+        margin-right: 10px;
+      }
+    
     }
+  
+  
    
     @keyframes spinFace {
       from,
@@ -269,6 +276,9 @@
       width: 80%; /* Set a specific width for the h2 element */
       // margin-left: auto; /* Push the h2 to the right */
       margin-right: auto; 
+    }
+    .home-page {
+      overflow-y: auto; /* Enable vertical scrolling */
     }
   }
   
