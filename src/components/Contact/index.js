@@ -116,11 +116,13 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+
+
         </div>
-          
-        {/* <div className="texas-img">
+        <div className="texas-img">
           <img alt="austin" src={austin} />
-        </div> */}
+        </div>
+
       </div>
 
 

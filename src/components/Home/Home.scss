@@ -280,6 +280,33 @@
     .home-page {
       overflow-y: auto; /* Enable vertical scrolling */
     }
+
+
+  }
+
+  @media all and (max-width: 500px) {
+
+    .text-area {
+      left: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    br {
+      display: none;
+    }
+
+    .resume-btn {
+      margin-left: 0;
+    }
+
+    .me img,
+    .austin img, div {
+      display: block;/* Adjust the aspect ratio for smaller screens */
+    }
   }
   
 
