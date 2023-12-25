@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    min-height: 100vh;
+  }
   
   /* Set a maximum width for the main container */
   .contact-page {
